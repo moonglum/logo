@@ -1,0 +1,13 @@
+{
+  "name": "logo",
+  "version": "1.0.0",
+  "description": "Experimenting with ffmpeg",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Lucas Dohmen <lucas@dohmen.io> (https://lucas.dohmen.io)",
+  "dependencies": {
+    "ffmpeg-static": "^4.2.7"
+  }
+}

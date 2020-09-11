@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<style>
+  body {
+    background: green;
+  }
+</style>
+  </head>
+  <body>
+    <video width="512" height="512" loop>
+        <source src="logo.webm" type="video/webm">
+    </video>
+    <script>
+      let video = document.querySelector("video");
+      video.addEventListener("mouseenter", () => {
+        video.play();
+      });
+      video.addEventListener("mouseleave", () => {
+        video.pause();
+      });
+    </script>
+  </body>
+</html>
